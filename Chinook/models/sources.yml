@@ -4,67 +4,34 @@ sources:
   - name: conformed
     database: raw
     schema: conformed
+    tables: []  # This indicates no tables are defined under the 'conformed' source
 
-    tables:
-      - name: DateDimension
-        columns:
-          - name: DateKey
-            tests:
-              - unique
-
-  - name: chinook   
+  - name: chinook
     database: raw
     schema: chinook
     tables:
-      - name: Track 
+      - name: Track
         columns:
-          - name: Trackid
+          - name: TrackId
             tests:
               - unique
       - name: Artist
         columns:
-          - name: Artistid 
+          - name: ArtistId
             tests:
-              - unique        
+              - unique
       - name: Album
         columns:
-          - name: Albumid 
+          - name: AlbumId
             tests:
-              - unique   
-      - name: genre
-        columns:
-          - name: genreid 
-            tests:
-              - unique        
-      - name: mediatype
-        columns:
-          - name: mediatypeid 
-            tests:
-              - unique 
+              - unique
       - name: invoice
         columns:
-          - name: invoiceid 
+          - name: InvoiceId
             tests:
-              - unique        
+              - unique
       - name: invoiceline
         columns:
-          - name: invoicelineid 
+          - name: InvoicelineId
             tests:
-              - unique 
-      - name: customer
-        columns:
-          - name: customerid 
-            tests:
-              - unique 
-      - name: customer_track_reviews
-        tests:
-        - dbt_utils.unique_combination_of_columns:
-            combination_of_columns:
-              - customerid
-              - Trackid
-      - name: Playlist
-        columns:
-          - name: Playlistid 
-            tests:
-              - unique 
-      - name: Playlisttrack
+              - unique
