@@ -98,10 +98,21 @@ For questions or discussions, please [open an issue](https://github.com/skumbham
 
 This project aligns with the **MS in Applied Data Science Program Learning Outcomes**:
 
-- **Outcome 1:** Collected, stored, and accessed data efficiently using Snowflake, dbt, and Amazon S3.
-- **Outcome 2:** Applied the full data science lifecycle to develop actionable insights.
-- **Outcome 3:** Created dimensional models and an OBT to support scalable business intelligence.
-- **Outcome 4:** Utilized SQL and dbt to transform and manage datasets.
-- **Outcome 5:** Documented and presented findings to support stakeholders’ understanding.
-- **Outcome 6:** Ensured ethical data handling practices with a focus on data quality and transparency.
+**1. Collect, store, and access data by identifying and leveraging applicable technologies:**  
+Collected, stored, and accessed data by leveraging Amazon S3 and Snowflake, using DBT to automate data ingestion and transformation.
+
+**2. Create actionable insight across a range of contexts (e.g., societal, business, political), using data and the full data science life cycle:**  
+Generated actionable insights across various contexts, including sales performance and music release patterns, supporting business intelligence applications.
+
+**3. Apply visualization and predictive models to help generate actionable insight:**  
+Designed a robust data model with DBT, creating facts and snapshots to provide clear, structured insights.
+
+**4. Use programming languages such as R and Python to support the generation of actionable insight:**  
+Applied SQL in Snowflake and used DBT for transformations, showcasing programming and modeling skills for generating insights.
+
+**5. Communicate insights gained via visualization and analytics to a broad range of audiences:**  
+Communicated complex data transformations and insights via structured models and automated reporting, ensuring stakeholders received clear and timely information.
+
+**6. Apply ethics in the development, use, and evaluation of data and predictive models:**  
+Maintained data integrity and transparency by setting up automated transformations and ensuring the data was processed accurately, respecting ethical data handling practices.
 
